@@ -27,5 +27,8 @@
     "modern-normalize": "^2.0.0",
     "parcel": "^2.9.1"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
 }
