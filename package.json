@@ -2,7 +2,6 @@
   "name": "goit-js-hw-11",
   "version": "1.0.0",
   "description": "Homework 10 Fullstak online GoIT",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
@@ -23,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/savchenkolex/goit-js-hw-11/issues"
   },
-  "homepage": "https://github.com/savchenkolex/goit-js-hw-11#readme",
+  "homepage": "https://github.com/savchenkolex/goit-js-hw-11/",
   "dependencies": {
     "modern-normalize": "^2.0.0",
     "parcel": "^2.9.1"
