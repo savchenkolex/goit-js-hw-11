@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-11",
   "version": "1.0.0",
-  "description": "Homework 10 Fullstak online GoIT",
+  "description": "Homework 11 Fullstak online GoIT",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
@@ -27,5 +27,5 @@
     "modern-normalize": "^2.0.0",
     "parcel": "^2.9.1"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
