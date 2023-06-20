@@ -27,10 +27,13 @@
     "axios": "^1.4.0",
     "modern-normalize": "^2.0.0",
     "notiflix": "^3.2.6",
-    "parcel": "^2.9.1"
+    "parcel": "^2.9.1",
+    "simplelightbox": "^2.14.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "buffer": "^6.0.3",
     "parcel-reporter-clean-dist": "^1.0.4"
   }
 }
