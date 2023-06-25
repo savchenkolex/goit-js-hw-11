@@ -66,7 +66,7 @@ async function formHeandler(event) {
           pageCounterText.textContent = "";
         } else {
           loadBtn.classList.remove('visually-hidden');
-          totalPages = total % 40;
+          totalPages = Math.ceil(total / 40);
           pageCounterText.textContent = `${pageCounter} / ${totalPages}`;
         }
  
