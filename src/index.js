@@ -58,7 +58,7 @@ async function formHeandler(event) {
     } else {
       const images = await getImages(query);
       total = images.data.total;
-console.log(images);
+
 
       if (total > 0) {
         if (total <= 40) {
@@ -69,7 +69,7 @@ console.log(images);
           totalPages = total % 40;
           pageCounterText.textContent = `${pageCounter} / ${totalPages}`;
         }
- console.log("total images: " + total);
+ 
         Notiflix.Notify.success(`Hooray! We found ${total} images.`);
         infoBlock.classList.remove('visually-hidden');
         numberField.textContent = total;
