@@ -1,0 +1,169 @@
+body {
+    background-color:teal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 14px;
+    padding: 12px 0;
+    background-color: rgb(69, 74, 83);
+    border-bottom: 3px solid darkslategray;
+    color: whitesmoke;
+    -webkit-box-shadow: 0px 11px 5px 0px rgba(101,171,171,1);
+    -moz-box-shadow: 0px 11px 5px 0px rgba(101,171,171,1);
+    box-shadow: 0px 8px 25px 0px rgba(101,171,171,1);
+    position: sticky;
+    top: 0;
+
+}
+
+form input {
+    width: 150px;
+    height: 32px;
+    border-radius: 14px;
+}
+
+form button {
+    width: 100px;
+    height: 32px;
+    border-radius: 14px;
+}
+
+form button:hover {
+    background-color: cadetblue;
+}
+
+form button:active {
+    background-color: teal;
+}
+
+.text-info {
+    font-size: 12px;
+    text-align: center;
+}
+
+.visually-hidden {   
+    visibility: hidden;
+    overflow: hidden;
+  }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px;
+
+}
+
+.photo-link {
+    width: 20%;
+
+    text-decoration: none;
+    display: block;
+
+    
+}
+
+.photo-link:hover {
+
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor:zoom-in ;
+}
+
+.photo-link:hover img {
+    transform: scale(1.5);
+}
+
+
+.photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 250ms linear;
+}
+
+.info {
+    font-size: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    justify-content: center;
+}
+
+.info-item {
+    display: inline-block;
+    border-radius: 4px;
+
+    padding: 2px;
+    margin: 1px 0;
+    background-color:rgb(59, 62, 77);
+}
+
+.more-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.load-more {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    transition: background-color 500ms ease-in;
+}
+
+.load-more:hover {
+    background-color: skyblue;
+    transition: background-color 500ms ease-in;
+}
+
+.load-more:active {
+    background-color:rgb(69, 74, 83);
+    color: yellow;
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        gap: 24px;
+        padding: 40px 0;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    form input {
+        width: 250px;
+    }
+
+    .photo-link {
+        height: 150px;
+    }
+
+    .photo-card {
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .photo-link {
+        height: 200px;
+    }
+
+    .photo-card {
+        height: 150px;
+    }
+}
